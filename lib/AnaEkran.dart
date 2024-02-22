@@ -67,7 +67,6 @@ class _AnaEkranState extends State<AnaEkran> {
             TextField(
               controller: t2,
             ),
-            // RaisedButton -> ElevatedButton'a dönüştürüldü
             ElevatedButton(
               onPressed: sayiTopla,
               child: const Text("Topla"),
